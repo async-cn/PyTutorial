@@ -3,9 +3,9 @@
 ![](https://img.shields.io/badge/License-MIT-blue)
 ![](https://img.shields.io/badge/Python-3.x-blue)
 
-当我还是一个懵懂的小蒟蒻时，是 Python 为我打开了一扇大门，将我带往丰富多彩的编程世界。
+很久之前，Python 为我打开了一扇大门，将我带往丰富多彩的编程世界。
 
-作为一名普普通通的高中Coder，我决定开始编写这套教程，希望能帮助更多的人们轻松地入门Python。
+作为一名普普通通的高中Coder，我决定编写这套教程，希望能帮助更多的人们轻松地入门 Python。
 
 ## 项目初始化
 
