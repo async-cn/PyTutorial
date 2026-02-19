@@ -1,0 +1,12 @@
+{
+    "name": "J1-A-HelloWorld",
+    "program": "A",
+    "nodes": [
+        {
+            "file": {
+                "input": "data/1.in",
+                "ans": "data/1.ans"
+            }
+        }
+    ]
+}

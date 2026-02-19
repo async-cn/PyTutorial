@@ -1,47 +1,38 @@
 # PyTutorial
 
+![](https://img.shields.io/badge/License-MIT-blue)
 ![](https://img.shields.io/badge/Python-3.x-blue)
 
 当我还是一个懵懂的小蒟蒻时，是 Python 为我打开了一扇大门，将我带往丰富多彩的编程世界。
 
 作为一名普普通通的高中Coder，我决定开始编写这套教程，希望能帮助更多的人们轻松地入门Python。
 
-## 配置与安装
+## 项目初始化
 
-1. 下载并安装 Git：前往[git-scm.com](https://git-scm.com/install/)安装 Git，或直接[点击此处](https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.1/Git-2.53.0-64-bit.exe)下载为64位Windows系统准备的 Git v2.53.0。
-2. 
+推荐使用 [PyCharm](https://www.jetbrains.com/zh-cn/pycharm/) 进行 Python 学习（非广告）
 
-## 为什么选择 Python？
-
-Python 的语法是极其简洁的，正如 WikiPedia 中对 Python 的描述：
-
-> Python的设计哲学，强调代码的可读性和简洁的语法，尤其是使用空格缩进来划分代码块。相比于C语言或Java，Python让开发者能够用更少的代码表达想法。
-
-接下来通过一个例子，相信你就能明白了。
-
-在不同的编程语言中，想要在控制台中输出一行“Hello, World!”需要的代码：
-
-**Python**
-```python
-print("Hello, World!")
+1. 下载并安装 Git：前往[git-scm.com](https://git-scm.com/install/)安装 Git，或直接[点击此处](https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.1/Git-2.53.0-64-bit.exe)下载为 64 位 Windows 系统准备的 Git 2.53.0。
+2. 克隆项目：选择一个喜欢的目录（桌面，D盘等），[打开终端](https://blog.csdn.net/wxiao_xiao_miao/article/details/120228056)，执行命令：
+```bash
+git clone https://github.com/async-cn/PyTutorial.git
+```
+3. 下载并安装Python：前往[python.org](https://www.python.org/)下载任意版本不低于3的Python（推荐使用[Python 3.14.3](https://www.python.org/downloads/release/python-3143/) | [直接为Windows 64bit 下载](https://www.python.org/ftp/python/3.14.3/python-3.14.3-amd64.exe)）
+4. 安装项目依赖：在项目目录（PyTutorial）下打开终端并执行命令：
+```bash
+pip install -r requirements.txt
+pip install packages/pyjudge-0.1.0-py3-none-any.whl
 ```
 
-**C++**
-```cpp
-#include <iostream>
-int main(){
-    std::cout << "Hello, World!";
-    return 0;
-}
-```
+## 开始使用
 
-**Java**
-```java
-public class HelloWorld {
-   public static void main(String[] args) {
-       System.out.println("Hello, World!");
-   }
-}
-```
+### 非 PyCharm 用户 
 
-无论对于初学者还是自身开发者，Python的语法都是非常友好的。
+5. 启动笔记本：在项目目录（PyTutorial）下打开终端并执行命令：（Windows用户直接执行notebook.cmd即可）
+```bash
+jupyter notebook --port 9100
+```
+6. 访问笔记本：在浏览器中访问[localhost:9100](http://localhost:9100)即可（初次使用请查看[README.ipynb](http://localhost:9100/notebooks/README.ipynb)）
+
+### PyCharm 用户
+
+PyCharm 内置Jupyter Notebook托管和渲染，直接在PyCharm内查看即可。
