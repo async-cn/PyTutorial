@@ -21,6 +21,7 @@ git clone https://github.com/async-cn/PyTutorial.git
 ```bash
 pip install -r requirements.txt
 pip install packages/pyjudge-0.1.0-py3-none-any.whl
+pythom -m pyjudge -pbar set false
 ```
 
 ## 开始使用
