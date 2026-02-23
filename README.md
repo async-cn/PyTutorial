@@ -21,19 +21,14 @@ git clone https://github.com/async-cn/PyTutorial.git
 ```bash
 pip install -r requirements.txt
 pip install packages/pyjudge-0.1.0-py3-none-any.whl
+pip install packages/pyjudge_pytutorial-0.1.0-py3-none-any.whl
 pythom -m pyjudge -pbar set false
 ```
 
 ## 开始使用
 
-### 非 PyCharm 用户 
-
 5. 启动笔记本：在项目目录（PyTutorial）下打开终端并执行命令：（Windows用户直接执行notebook.cmd即可）
 ```bash
 jupyter notebook --port 9100
 ```
-6. 访问笔记本：在浏览器中访问[localhost:9100](http://localhost:9100)即可（初次使用请查看[README.ipynb](http://localhost:9100/notebooks/README.ipynb)）
-
-### PyCharm 用户
-
-PyCharm 内置Jupyter Notebook托管和渲染，直接在PyCharm内查看即可。
+6. 访问笔记本：在浏览器中访问启动后终端中显示的链接，并查看[README.ipynb](http://localhost:9100/notebooks/README.ipynb)）即可。
